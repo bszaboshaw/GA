@@ -1,0 +1,57 @@
+
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ccc;
+}
+
+#header {
+	background-color: blue;
+	padding: 5px 20px;
+
+}
+
+h1{
+	color: white;
+}
+
+#content {
+	float: left;
+	width: 560px;
+	background-color: white;
+}
+
+.alignleft {
+	float: left;
+	margin: 10px;
+
+}
+
+.sidebar {
+	float: left;
+	width: 200px;
+	background-color: #f00;
+}
+
+#footer {
+	clear: both;
+
+}
+
+.clearfix:after { /* expands collapsed parent to clear its height past its floating children */
+ 
+  content: "."; /* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+	
+	display: block;  set newly created content: to display block 
+	
+	clear: both; /* sets the '.' content to clear past all of the floating children giving a height reference. */
+	
+	visibility: hidden; /* make the '.' content invisible. */
+	
+	line-height: 0; /* make sure it has no text line-height */
+	height: 0; /* make sue it has no physical height */
+}
+
+
