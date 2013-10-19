@@ -4,13 +4,85 @@
 /*        GENERAL             *
 /*****************************/	
 
+body { 
+	background-image: url('../images/bg-gradient.jpg');
+	background-repeat: repeat-x;
+}
 
+.container { 
+	width: 770px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	padding-top: 5px;
 
+}
 
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+#content {
+	width: 770px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+p { 
+	padding: 15px;
+	font-size: 12px;
+	line-height: 1.2em;
+	font-family: Helvetica, Arial, sans-serif;
+}
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
-	
 
-	
+
+
+#MainNav ul li a {
+	text-indent: 100%;
+	white-space: no-wrap;
+	overflow: hidden;
+	display: block;
+	height: 56px;
+	width: 122px;
+	background-image: url('../images/menu-sprite.jpg');
+	float: left;
+	background-position-y: -5px;
+}
+
+#MainNav ul li a:hover {
+	background-position: 2px;
+}
+
+#MainNav ul li .active {
+	background 
+}
+
+/*li.home a {
+	background-position-y: 135px;
+}
+*/
+/*#MainNav ul li a:hover {
+	background-position-y: 2px;
+}
+
+#MainNav ul li .home a:hover {
+	background-position: 2px;
+}
+
+li.about a {
+	background-position-x: 130px;
+}
+
+li.about a { 
+	background-position-x: 292px;
+}
+
+*/
