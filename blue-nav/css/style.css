@@ -58,12 +58,18 @@ p {
 }
 
 #MainNav ul li a:hover {
-	background-position: 2px;
+	background-position-y: -72px;
 }
 
-#MainNav ul li .active {
-	background 
+#MainNav ul li.about a {
+	background-position-x: -131px;
 }
+
+#MainNav ul li.contact a {
+	background-position-x: 153px;
+	width: 140px;
+}
+
 
 /*li.home a {
 	background-position-y: 135px;
