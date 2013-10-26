@@ -48,4 +48,21 @@ nav ul li a:hover, a.active {
 	background-color: #FF2266;
 }
 
+/*body {
+	background-color: yellow;
+}*/
+
+#container {
+	width: 940px;
+	margin: 30px auto;
+	padding: 5px;
+	height: 600px;
+	background-color: #C2C0B0;
+}
+
+h1 {
+	margin-top: 20px;
+	font-size: 18px;
+	color: gray;
+}
 

@@ -8,35 +8,64 @@
 }
 
 #header {
-	background-color: blue;
+	background-color: #B0B5BF;
 	padding: 5px 20px;
 
 }
 
-h1{
+h1 { 
 	color: white;
+}
+
+h2 {
+	margin-left: 10px;
+}
+h2 {
+	padding-left: 10px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+.sidebar {
+	font-size: 11px;
+	line-height: 1.8em;
 }
 
 #content {
 	float: left;
 	width: 560px;
+	padding-left: 10px;
 	background-color: white;
+	margin-bottom: 10px;
 }
 
 .alignleft {
 	float: left;
 	margin: 10px;
-
 }
+
+/*.sidebar p.alignleft {
+	color: white;
+}*/
 
 .sidebar {
 	float: left;
-	width: 200px;
-	background-color: #f00;
+	width: 380px;
+	margin-left: 10px;
+	margin-right: 0px;
+	background-color: #AED9E6;
 }
 
 #footer {
 	clear: both;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	background-color: #E9CEF2;
 
 }
 

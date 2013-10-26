@@ -51,6 +51,7 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      margin: 0;
      padding: 0;
+     background-image: url('../images/bg_blurb.jpg') repeat-x border-bottom: 1px solid #000;
      background-image: url('../images/bg_body.jpg');
 }
 
@@ -73,6 +74,7 @@ nav ul {
      margin: 0 auto;
      vertical-align: bottom;
 }
+
 nav ul li a {
      display: block;
      height: 28px;
@@ -91,6 +93,7 @@ nav ul li a {
 
 nav ul li a:hover {
      background-image: url(../images/bg_nav_rollover.png);
+     color: #A0CBF7;
 }
 
 /******************************************
@@ -98,15 +101,10 @@ nav ul li a:hover {
 /*******************************************/
 
 /* Center the container */
+
 #container {
 	width: 960px;
 	margin: 0 auto;
-
-}
-
-header {
- backgroun-color: black;
- border-bottom: white;
 }
 
 #social ul li a {
@@ -172,15 +170,19 @@ ul {
      display: block;
 }
 
-img {
-    border-bottom: 0;
+#topimage {
+     background: url('images/bg_blurb.jpg');
+}
+
+.shadow {
+     margin-top: -5px;
 }
 
 
 .thumbnail { 
      border: 3px solid #CECDD1;
-     padding:1px;
-     background-color:#ff0;
+     padding: 1px;
+     background-color: #ff0;
 }
 
 footer { 

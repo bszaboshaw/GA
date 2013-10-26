@@ -1,0 +1,97 @@
+/* 
+Project Name: Ecard.ly
+Client: General Assembly 
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Background Color: #d6d6d6
+Text Color: #000000
+Link Color: #cc6633
+
+Container Width: 940px
+Left Columm (#main): 640px
+Right Column (#sidebar): 280px*/
+
+/*background-image: url('../images/background.jpg');
+tiles images automatically - useful for textures - use without background-repeat*/
+
+body{
+     background-color: #d6d6d6;
+     background-image: url('../images/background.jpg');
+     background-repeat: repeat-x;
+     color: #000;
+     font-size: 12px;
+}
+
+#container {
+     width: 960px;
+     margin: 0 auto;
+}
+
+main {
+     float:left;
+     width: 640px;
+}
+
+aside {
+     width: 290px;
+     float: left;
+     background-color: #fff;
+     margin: 10px 0px 20px 20px;
+     padding: 10px;
+}
+
+/*Scott Kellum's image replacement technique! */
+
+h1{
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 216px;
+     height: 213px;
+     background-image: url('../images/logo.png');
+     margin: 0 auto;}
+
+h2 {
+     font-size: 20px;
+}
+
+article {
+     background: white;
+     padding: 10px;
+     margin: 10px 0px;
+}
+
+a {
+     color: #cc6633;
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+}
+
+img { 
+     float: left;
+     margin-right: 10px;
+}
