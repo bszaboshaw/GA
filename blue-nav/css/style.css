@@ -7,6 +7,7 @@
 body { 
 	background-image: url('../images/bg-gradient.jpg');
 	background-repeat: repeat-x;
+	background-color: #ccc;
 }
 
 .container { 
