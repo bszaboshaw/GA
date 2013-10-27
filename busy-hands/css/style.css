@@ -55,10 +55,6 @@ body {
      background-image: url('../images/bg_body.jpg');
 }
 
-img { 
-     margin-top: 0;
-}
-
 /*----------------------------------------------------------------------------- 
 NAVIGATION 
 -----------------------------------------------------------------------------*/
@@ -171,7 +167,7 @@ ul {
 }
 
 #topimage {
-     background: url('images/bg_blurb.jpg');
+     background: url('../images/bg_blurb.jpg') repeat-x;
 }
 
 .shadow {

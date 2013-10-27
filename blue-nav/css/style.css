@@ -7,7 +7,7 @@
 body { 
 	background-image: url('../images/bg-gradient.jpg');
 	background-repeat: repeat-x;
-	background-color: #ccc;
+	background-color: #b5bec7;
 }
 
 .container { 
@@ -29,14 +29,14 @@ body {
 
 #content {
 	width: 770px;
-	margin: 0 auto;
+	margin: 0px auto;
 	background-color: white;
 }
 
 p { 
 	padding: 15px;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -44,52 +44,45 @@ p {
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
 
-
-
 #MainNav ul li a {
 	text-indent: 100%;
 	white-space: no-wrap;
 	overflow: hidden;
 	display: block;
-	height: 56px;
-	width: 122px;
+	height: 65px;
+	width: 124px;
 	background-image: url('../images/menu-sprite.jpg');
 	float: left;
-	background-position-y: -5px;
+	background-position-y: -3px;
+	margin-bottom: 5px;
 }
 
 #MainNav ul li a:hover {
 	background-position-y: -72px;
+	background-position-x: 3px;
 }
 
 #MainNav ul li.about a {
-	background-position-x: -131px;
+	background-position-x: -123px;
 }
 
 #MainNav ul li.contact a {
-	background-position-x: 153px;
-	width: 140px;
+	background-position-x: 166px;
+	width: 160px;
 }
 
-
-/*li.home a {
-	background-position-y: 135px;
-}
-*/
-/*#MainNav ul li a:hover {
-	background-position-y: 2px;
+#MainNav ul li.home a.selected {
+	background-position-y: -142px;
+	background-position-x: 3px;
 }
 
-#MainNav ul li .home a:hover {
-	background-position: 2px;
+#MainNav ul li.about a.selected {
+	background-position-y: -142px;
+	background-position-x: -123px;
 }
 
-li.about a {
-	background-position-x: 130px;
+#MainNav ul li.contact a.selected {
+	background-position-y: -142px;
+	background-position-x: 166px;
 }
 
-li.about a { 
-	background-position-x: 292px;
-}
-
-*/
