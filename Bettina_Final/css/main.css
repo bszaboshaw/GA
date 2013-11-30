@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-LightOblique.eot');
+    src: url('fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AvenirLTStd-LightOblique.woff') format('woff'),
+         url('fonts/AvenirLTStd-LightOblique.ttf') format('truetype'),
+         url('fonts/AvenirLTStd-LightOblique.svg#avenir') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Light.eot');
+    src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AvenirLTStd-Light.woff') format('woff'),
+         url('fonts/AvenirLTStd-Light.ttf') format('truetype'),
+         url('fonts/AvenirLTStd-Light.svg#avenier') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top-bar {
+  width: 100%;
+  overflow: hidden;
+  height: 65px;
+  line-height: 60px;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+  margin-bottom: 30px; 
+}
+
+.logo {
+  background: transparent url("../images/Tresor_logo2.svg") center center no-repeat;
+  height: 57px;
+  width: 170px;
+  float: left;
+  margin-top: 8px;
+  margin-left: -32px;
+} 
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    min-height: 50px;
+    padding: 0;
+    margin-bottom: 20px;
+    background-color: white;
+    background-image: white;
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+    -webkit-box-shadow: 0px 0px 3px 1px #ebebeb;
+    -moz-box-shadow: 0px 0px 3px 1px #ebebeb;
+    box-shadow: 0px 0px 3px 1px #ebebeb;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+nav ul li { 
+    float: right;
+    width: 150px;
+    font-family: "Avenir", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-size: .7em;
+    border-left: 1px solid #ddd;
+    padding: 23px 18px 23px 17px;
+    margin-top: -1px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav ul li:hover {
+    background: black;
+    color: white;
+    cursor: pointer; 
+}
+
+nav ul li:first-child {
+    border-right: 1px solid #ddd;
+}
+
+nav ul li a {
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+a { 
+    color: #000;
+    text-decoration: none;
+    font-family: "Avenir", sans-serif;
+}
+
+li ul { 
+  text-decoration: none;
+  list-style-type: square;
+}
+
+.row-first {
+  margin-top: 85px;
+}
+
+.row-second {
+  margin-top: 25px;
+}
+
+.column, .columns {
+  position: relative;
+  padding-left: 0.53333rem;
+  padding-right: 0.53333rem;
+  float: left;
+}
+
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 40px 0;
+  overflow: hidden;
+  background: #fcbb00;
+  color: #474747;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+

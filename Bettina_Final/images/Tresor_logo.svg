@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="75px" height="35px" viewBox="0 0 75 35" enable-background="new 0 0 75 35" xml:space="preserve">
+<font horiz-adv-x="1000">
+<!-- [c] Copyright 2006, The Font Bureau, Inc. All Rights Reserved. -->
+<!-- Copyright: Copyright 2013 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="BentonModDisp-Regular" units-per-em="1000" underline-position="-133" underline-thickness="20"/>
+<missing-glyph horiz-adv-x="500"/>
+<glyph unicode="T" horiz-adv-x="597" d="M148,0l300,0l0,15l-45,0C357,15 340,27 340,75l0,594l26,0C507,669 538,571 562,417l14,0l-11,267l-531,0l-13,-267l14,0C60,571 90,669 231,669l26,0l0,-594C257,27 239,15 194,15l-46,0z"/>
+<glyph unicode="&#xE9;" horiz-adv-x="417" d="M214,-15C301,-15 359,34 396,96l-11,8C352,56 313,17 236,17C150,17 106,102 106,212l282,0C389,217 390,239 390,242C390,371 298,433 218,433C118,433 24,342 24,207C24,70 99,-15 214,-15M106,228C109,343 145,418 215,418C279,418 307,353 307,273C307,241 296,228 256,228M171,474l133,74C334,565 342,582 342,598C342,615 326,632 305,632C286,632 268,622 251,599l-88,-118z"/>
+<glyph unicode="o" horiz-adv-x="439" d="M220,-15C314,-15 415,85 415,212C415,342 314,433 220,433C126,433 24,340 24,210C24,83 126,-15 220,-15M220,-1C137,-1 109,96 109,211C109,327 139,419 220,419C301,419 331,325 331,209C331,94 303,-1 220,-1z"/>
+<glyph unicode="r" horiz-adv-x="365" d="M13,0l211,0l0,14l-23,0C157,14 147,25 147,70l0,119C147,268 208,410 280,410C292,410 302,408 302,400C302,395 299,392 294,388C285,380 273,370 273,348C273,323 293,307 318,307C346,307 368,327 368,366C368,401 339,431 288,431C222,431 172,366 141,257l-2,0l7,169l-133,-8l0,-12l7,0C62,406 74,395 74,350l0,-280C74,25 64,14 20,14l-7,0z"/>
+<glyph unicode="s" horiz-adv-x="394" d="M221,-10C307,-10 368,37 368,117C368,196 319,227 210,256C126,278 87,293 87,340C87,384 124,414 170,414C254,414 311,357 327,275l9,0l0,152l-10,0C319,410 306,402 290,402C259,402 233,428 175,428C99,428 45,383 45,311C45,224 106,201 194,176C295,147 326,130 326,85C326,38 284,4 225,4C146,4 66,63 49,161l-9,0l0,-170l10,0C58,13 71,25 86,25C110,25 159,-10 221,-10z"/>
+</font>
+
+	<text transform="matrix(1 0 0 1 1.1221 24.0293)"><tspan x="0" y="0" font-family="'BentonModDisp-Regular'" font-size="21">T</tspan><tspan x="12.852" y="0" font-family="'BentonModDisp-Regular'" font-size="21">résor</tspan></text>
+</svg>
