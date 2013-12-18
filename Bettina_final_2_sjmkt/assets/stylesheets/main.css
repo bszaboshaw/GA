@@ -1,0 +1,284 @@
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(41,41,41);
+}
+
+.wrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+p {
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-family: "courier-std", monospace;
+	/*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(231,231,232);
+}
+
+.logo_marque {
+	height: 80px;
+	width: 80px;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	width: 100%;
+	background: url('../images/St_James_LogoMarque_final2.png') no-repeat center;
+	/*background: url('../images/St_James_LogoMarque_final.svg') no-repeat center;*/
+}
+
+.established {
+	position: absolute;
+	top: 50%;
+  	width: 100%;
+  	/*height: 100px;*/
+ 	margin-top: -50px;
+  	text-align: center;
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: 47px;
+	background: url('../images/St_James_Market_Logo2.png') no-repeat center;
+	background-size: 700px 47px;
+}
+
+.established1660 {
+	display: inline-block;
+	width: 256px;
+	height: 19px;
+	background: url('../images/Taglines_established.png') no-repeat center;
+	margin-top: 2px;
+	margin-right: -8px;
+}
+
+.re-established {
+	display: inline-block;
+	width: 256px;
+	height: 19px;
+	background: url('../images/Taglines_re_established.png') no-repeat center;
+	margin-top: 16px;
+}
+
+.logosWrapper {
+	 position: absolute;
+	 bottom: 30px;
+	 width: 100%;
+	 text-align: center;
+}
+
+.development p { 
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
+	font-size: 10pt;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	color: rgb(209,211,212);
+}
+
+#StJames {
+	display: inline-block;
+	width: 108px;
+	height: 34px;
+	margin-right: 20px;
+	background: url('../images/St_James_London_Logo.png') no-repeat center;
+	background-size: 108px 34px;
+}
+
+#crownEstate {
+	display: inline-block;
+	width: 88px;
+	height: 34px;
+	margin-right: 20px;
+	background: url('../images/Crown_Estate_Logo.png') no-repeat center;
+	background-size: 88px 34px;
+}
+
+#oxford {
+	display: inline-block;
+	width: 100px;
+	height: 34px;
+/*	margin-left: -15px;
+	margin-bottom: -3px;*/
+	background: url('../images/Oxford_Property_Logo.png') no-repeat center;
+	background-size: 100px 34px;
+
+}
+
+/*Scott Kellum image replacement technique - for large logo only */
+
+/*h1	{
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 700px;
+     height: 60px;
+     background-image: url('../images/St_James_Market_Logo_width_580px_white.svg');
+     margin: 0 auto;
+ }*/
+
+
+/* ==========================================================================
+   Media Queries 
+   ========================================================================== */
+
+/*  ==========================================================================
+    Mobile 
+    ==========================================================================  */
+
+@media screen and (max-width: 320px) {
+
+	.logo_marque {
+		height: 80px;
+		width: 80px;
+		position: relative;
+		top: 15px;
+		margin: 0 auto;
+		width: 100%;
+		background: url('../images/St_James_LogoMarque_final2.png') no-repeat center;
+}
+
+	.logo {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -10px;
+		width: 239px;
+		height: 75px;
+		background: url('../images/St_James_Logo_mobile.png') no-repeat center;
+		background-size: 239px 75px;
+}
+
+	p {
+		margin-left: 45px;
+		margin-right: 45px;
+}
+
+	.established1660 {
+		display: inline-block;
+		width: 200px;
+		height: 16px;
+		background: url('../images/tagline_established_mobile.png') no-repeat center;
+		margin-top: 10px;
+	/*	margin-right: -25px;*/
+}
+
+	.re-established {
+		display: inline-block;
+		width: 240px;
+		height: 16px;
+		background: url('../images/tagline_re_established_mobile.png') no-repeat center;
+		margin-top: 3px;
+}
+
+	.development p { 
+		font-family: Helvetica, Arial, sans-serif;
+		margin-bottom: 10px;
+		font-size: 10pt;
+		font-weight: lighter;
+		letter-spacing: 1px;
+		color: rgb(209,211,212);
+}
+
+	.logosWrapper {
+		 position: absolute;
+		 bottom: 10px;
+		 width: 100%;
+		 text-align: center;
+}
+
+	#StJames {
+		display: inline-block;
+		width: 103px;
+		height: 32px;
+		margin-right: 7px;
+		background: url('../images/St_James_London_Logo.png') no-repeat center;
+		background-size: 103px 32px;
+}
+
+	#crownEstate {
+		display: inline-block;
+		width: 83px;
+		height: 32px;
+		margin-right: 5px;
+		background: url('../images/Crown_Estate_Logo.png') no-repeat center;
+		background-size: 83px 32px;
+}
+
+	#oxford {
+		display: inline-block;
+		width: 95px;
+		height: 32px;
+		background: url('../images/Oxford_Property_Logo.png') no-repeat center;
+		background-size: 95px 32px;
+}
+
+}
+
+/*  ==========================================================================
+    Small Tablet 
+    ==========================================================================  */
+
+@media screen and (min-width: 321px) and (max-width: 600px) { 
+
+	.logo_marque {
+		height: 80px;
+		width: 80px;
+		position: relative;
+		top: 20px;
+		margin: 0 auto;
+		width: 100%;
+		background: url('../images/St_James_LogoMarque_final2.png') no-repeat center;
+	}
+
+	.logo {
+		margin-left: auto;
+		margin-right: auto;
+		width: 254px;
+		height: 78px;
+		background: url('../images/Mobile_St_james_Market_Logo.svg') no-repeat center;
+		background-size: 254px 78px;
+	}
+
+	.established1660 {
+		display: inline-block;
+		width: 251px;
+		height: 14px;
+		background: url('../images/Established_1660.svg') no-repeat center;
+		margin-top: 20px;
+		margin-right: -85px;
+	}
+
+	.re-established {
+		display: inline-block;
+		width: 251px;
+		height: 14px;
+		background: url('../images/Re_established_2016.svg') no-repeat center;
+		margin-top: 3px;
+	}
+
+	p {
+		line-height: 0.8em;
+	}
+
+	.logosWrapper {
+		 position: absolute;
+		 bottom: 12px;
+		 width: 100%;
+		 text-align: center;
+}
+
+}
+
