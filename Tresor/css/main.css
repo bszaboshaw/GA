@@ -1,0 +1,588 @@
+/* 
+Project Name: Tresor Template
+Client: Tresor London
+Author: Bettina Szabo-Shaw
+*/
+
+
+/******************************************
+/* CUSTOM STYLES                   
+/*******************************************/
+
+.clear {
+	clear: both;
+}
+
+
+body {
+    padding-top: 70px;
+     color: #111;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: "AvenirLTStd-Light", sans-serif;
+     background-color: #fff;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('fonts/akkurat-light.eot');
+    src: url('fonts/akkurat-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/akkurat-light.woff') format('woff'),
+         url('fonts/akkurat-light.ttf') format('truetype'),
+         url('fonts/akkurat-light.svg#avenir') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-LightOblique.eot');
+    src: url('fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AvenirLTStd-LightOblique.woff') format('woff'),
+         url('fonts/AvenirLTStd-LightOblique.ttf') format('truetype'),
+         url('fonts/AvenirLTStd-LightOblique.svg#avenir') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Light.eot');
+    src: url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AvenirLTStd-Light.woff') format('woff'),
+         url('fonts/AvenirLTStd-Light.ttf') format('truetype'),
+         url('fonts/AvenirLTStd-Light.svg#avenier') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.navbar .btn-navbar {
+    background-color: transparent;
+    display: none;
+    float: right;
+    padding: 7px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.075);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.075);
+}
+
+.navbar-fixed-top {
+      height: 52px;
+}
+
+.nav-icon {
+      padding-right: 0px;
+      border-right: 1px solid #ddd;
+}
+
+ul.navbar-right {
+	   font-family: 'AvenirLTStd-Light', sans-serif;
+	   text-transform: uppercase;
+	   font-weight: 400;
+}
+
+ul.navbar-right li {
+      border-left: 1px solid #ddd;
+}
+
+ul.navbar-right li:last-child(4) {
+      border-right: 1px solid #ddd;
+}
+
+.navbar-brand {
+      height: 52px;
+      width: 89px;
+      border-right: 1px solid #ddd;
+      border-left: 1px solid #ddd;
+      display: inline-block;
+}
+
+/* 1200px or larger - */
+
+#profile {
+  font-family: "AvenirLTStd-Light", sans-serif;
+  color: #111;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: center;
+  border-left: 4px solid rgb(43, 32, 26);
+  border-top: 1px solid rgb(43, 32, 26);
+  border-right: 1px solid rgb(43, 32, 26);
+  border-bottom: 1px solid rgb(43, 32, 26);
+  padding-left: 60px;
+  padding-right: 60px;
+  display: block;
+
+  height: 455px;
+  padding-top: 18%;
+  background: url('../images/profile_background.jpg') no-repeat;  
+}
+
+.caps-top {
+    font-family: "AvenirLTStd-Light", sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0.85em;
+    padding-bottom: 30px;
+}
+
+.caps-bottom {
+    font-family: "AvenirLTStd-Light", sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0.85em;
+    padding-top: 30px;
+}
+
+/*PROFILE - larger than 992 px & smaller than 1190px*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+  #profile {
+    height: 388px;
+    padding-top: 12%;
+  }
+}
+
+/*PROFLE - smaller than 992 px & larger than 768px*/
+@media (min-width: 768px) and (max-width: 991px) { 
+  #profile {
+    height: 330px;
+    padding-top: 11%;
+    font-size: 0.9em;
+  }
+  .caps-top {
+    padding-bottom: 15px;
+}
+  .caps-bottom {
+    padding-top: 15px;
+}
+}
+
+/*PROFLE - smaller than 768px / larger than 320px*/
+@media (max-width: 768px) and (min-width: 320px) { 
+  #profile {
+    height: 330px;
+    padding-top: 11%;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+  }
+  .caps-top {
+    padding-bottom: 5%;
+}
+  .caps-bottom {
+    padding-top: 5%;
+}
+}
+
+/********************************/
+/*Responsive Slide - Top Right */
+/******************************/
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.framed-caption {
+    margin-top: 15px;
+    padding: 15px;
+    color: #111;
+    border-left: 4px solid rgb(43, 32, 26);
+    border-top: 1px solid rgb(43, 32, 26);
+    border-right: 1px solid rgb(43, 32, 26);
+    border-bottom: 1px solid rgb(43, 32, 26);
+}
+.type-of { 
+    color: #111;
+    font-family: "AvenirLTStd-Light", sans-serif;
+    font-size: 11px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+
+.project {
+    color: #111;
+    font-size: 14px;
+    font-family: "AvenirLTStd-Light", sans-serif;
+    line-height: 16px;
+}
+
+.category-icon {
+    font-family: "AvenirLTStd-Light", sans-serif;
+    font-size: 1.6em;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #000;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+a:hover img {
+    opacity: 0.9;
+}
+
+/* Animation */
+    .csstransitions .animated {
+        visibility: hidden;
+    }
+
+    .csstransitions .animated.visible {
+        visibility: visible;
+    }
+
+    .no-js .animated {
+        visibility: visible;
+    }
+
+    .csstransitions span.animated {
+        display: inline-block;
+    }
+}
+
+/* Section Split */
+.section-split {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    margin: 70px 0;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section-split.tinted {
+    background-color: #e1f1ef;
+}
+
+.section-split.stick {
+    margin-bottom: -70px;
+}
+
+.section-split.embed {
+    height: 450px;
+}
+
+.section-split:last-child {
+    margin-bottom: -100px;
+    padding-bottom: 110px;
+    border-top: 2px solid #f3f3f3;
+}
+
+.section-split.parallax {
+    display: table;
+    min-height: 450px;
+    height: 450px;
+    width: 100%;
+}
+
+.section-split.parallax .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-split.clients {
+    background-image: url("http://placehold.it/1400x800");
+}
+
+.section-split.product {
+    background-image: url("http://placehold.it/1400x800");
+}
+
+/********************************/
+/* Footer */
+/******************************/
+
+footer {
+  margin-top: 100px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #bbb;
+  color: #111;
+}
+
+.row-footer {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-info { 
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 45px; 
+  border-right: 1px solid #bbb;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+.contact-info li {
+  float: left;
+  list-style: none;
+}
+
+.iconSmall:before {
+  font-size: 10px;
+}
+
+.iconSmall.iconRounded{
+  width: 26px;
+  height: 26px;
+}
+
+.iconSmall.iconRounded:before{
+  line-height: 26px;  
+}
+
+.iconMedium {
+  font-size: 33px;
+}
+
+.iconMedium.iconRounded{
+  width: 66px;
+  height: 66px;
+}
+
+.iconMedium.iconRounded:before{
+  line-height: 66px;  
+}
+
+.contact-info .address { 
+  background: url(../images/icon-address2.png) no-repeat 0 0; 
+}
+
+.contact-info .phone { 
+background: url(../images/icon-phone2.png) no-repeat 0 1px; 
+}
+
+.email-footer { 
+color: #111;
+}
+
+.contact-info .email { 
+  background: url(../images/icon-email2.png) no-repeat 0 4px; 
+}
+
+.tresor-email {
+  color: #fff;
+}
+
+.tresor-email:hover {
+  color: #ddd;
+}
+
+/********************************/
+/* Social Sprites - Styling - desktop */
+/******************************/
+
+
+.social-links li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 0 0 15px;
+  text-indent: -9999px;
+}
+
+.social-links li:nth-child(6n+1) { margin-left: 0; }
+
+.social-links li:nth-child(4) { margin-right: -45px; }
+
+.social-links li:last-child { margin-right: -15px; }
+
+.social-links a {
+      background-repeat: no-repeat;
+      background-position: 0 -40px;
+      display: block;
+      height: 40px;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+      width: 40px;
+}
+
+.social-links li a:hover { background-position: 0 0; }
+
+
+/********************************/
+/* Footer Bottom */
+/******************************/
+
+#footer-bottom {
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 12px 0;
+    line-height: 0.9em;
+    font-family: "AvenirLTStd-Light", sans-serif;
+    letter-spacing: normal;
+}
+
+#footer-bottom li {
+  float: left;
+  list-style: none;
+  margin: 0;
+}
+      
+#footer-bottom li:first-child { 
+  margin-right: 15px; }
+      
+#footer-bottom li a {
+  display: block;
+  padding: 0 15px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #fff;
+  color: #fff;
+}
+
+#footer-bottom li:first-child a {
+  border-left: none;
+  padding-left: 0;
+  color: #fff;
+}
+
+#footer-bottom li:last-child a { 
+  padding-right: 0; 
+}
+
+#footer-bottom a { 
+  color: #fff; 
+}
+
+#footer-bottom a:hover { 
+  color: #bbb; }
+
+
+/********************************/
+/* NEW FOOTER - social network */
+/******************************/
+#footerRights {
+  font-size: 12px;
+  color: #111;
+}
+
+ul.socialNetwork {
+  padding: 0; 
+  display: block;
+  float: left;
+}
+
+ul.socialNetwork li {
+  display: inline-block; 
+  list-style-type: none;
+  padding: 15px;
+}
+
+ul.socialNetwork li:first-child {
+  padding-left: 0;
+}
+
+
+@media(min-width:992px){
+.socialNetwork{float: right;}
+}
+
+.socialNetwork  a {
+  width: 40px;
+}
+
+.socialNetwork a:hover{
+  text-decoration: none;
+}
+
+.tips { 
+  display: inline-block; 
+/*  position: absolute;
+  z-index: 1030;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+  padding: 5px 0;
+  margin-top: -3px;*/
+}
+
+.iconRounded {
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 18px; 
+  border: 1px solid #111;
+/*  display: inline-block; */
+  margin-top: 22px;
+  background-color: #FFF;
+  color: #111;
+}
+
+.iconRounded:hover {
+  background-color: #111;
+  color: #fff;
+  text-shadow: none; 
+  border-style: solid;
+}
+
+.iconRounded:before {
+  margin: auto;
+  text-align: center; 
+  line-height: 40px; 
+}
+
+/*.icon-facebook-1:before {
+content: '\e959';
+}*/
